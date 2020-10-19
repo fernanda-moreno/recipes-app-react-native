@@ -59,12 +59,14 @@ const styles = StyleSheet.create({
   infoPhoto: {
     height: 20,
     width: 20,
-    marginRight: 0
+    marginRight: 0,
+    marginBottom: 8
   },
   infoRecipe: {
     fontSize: 14,
     fontWeight: 'bold',
     marginLeft: 5,
+    marginBottom: 8
   },
   category: {
     fontSize: 14,

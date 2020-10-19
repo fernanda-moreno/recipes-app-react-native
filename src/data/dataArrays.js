@@ -42,11 +42,7 @@ export const recipes = [
     title: 'Crepes',
     photo_url: 'https://www.cookingclassy.com/wp-content/uploads/2018/01/crepes-26.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://www.cookingclassy.com/wp-content/uploads/2018/01/crepes-26.jpg'
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -59,16 +55,14 @@ export const recipes = [
     title: 'Arroz con Leche',
     photo_url: 'https://spicysouthernkitchen.com/wp-content/uploads/Rice-Pudding-2.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://spicysouthernkitchen.com/wp-content/uploads/Rice-Pudding-2.jpg'
     ],
-    time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    time: '30',
+    prepTime: '10',
+    cookTime: '20',
+    ingredients: [[62, '1 cup'], [18, '3 cups'], [64, '1 can'], [63, '1 can'], [65, '1'], [66, '2'], [67, '1'], [68, '1 teaspoon'], [69, '50g'], [70, 'for dusting']],
     description:
-    'Coming soon!'
+    '1. Cook the rice in a pot with the three cups of water, the cinnamon, the cloves, the raisins (optional), the orange peel over medium heat until the rice has cooked and the water has evaporated \n \n 2. Remove the cinnamon peel \n \n 3. Add the condensed milk and evaporated milk and cook over low heat until the rice is just right. Right after, add the vanilla, mix and cook for five more minutes \n \n 4. Serve in a bowl and sprinkle with the cinnamon powder'
   },
   {
     recipeId: 122,
@@ -717,4 +711,60 @@ export const ingredients = [
     photo_url:
       'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
   },
+  {
+    ingredientId: 62,
+    name: 'Rice',
+    photo_url:
+      'https://www.bulletproof.com/wp-content/uploads/2018/03/Hack-Your-Rice-With-Coconut-Oil-Recipe_header.jpg'
+  },
+  {
+    ingredientId: 63,
+    name: 'Evaporated Milk',
+    photo_url:
+      'https://images-na.ssl-images-amazon.com/images/I/81LFRnnN5aL._SL1500_.jpg'
+  },
+  {
+    ingredientId: 64,
+    name: 'Condensed Milk',
+    photo_url:
+      'https://images-na.ssl-images-amazon.com/images/I/81MQSY-CRfL._SL1500_.jpg'
+  },
+  {
+    ingredientId: 65,
+    name: 'Cinnamon Stick',
+    photo_url:
+      'https://cdn.shopify.com/s/files/1/3105/3020/products/Cinnamon_Sticks_2_1024x1024.jpg?v=1522120012'
+  },
+  {
+    ingredientId: 66,
+    name: 'Cloves',
+    photo_url:
+      'https://www.thespruceeats.com/thmb/etuDIvShWCHkdRPtloAX2KbT7Dc=/2500x1667/filters:fill(auto,1)/cloves-whole-ground-2500-5886fc7f5f9b58bdb388bf23.jpg'
+  },
+  {
+    ingredientId: 67,
+    name: 'Orange peel',
+    photo_url:
+    'https://homesteading.com/wp-content/uploads/2019/09/59-The-Magnificent-Orange-Peel-Clever-Homestead-Uses-for-Citrus-Peels-ss-1200x900.jpg'
+  },
+  {
+    ingredientId: 68,
+    name: 'Vanilla',
+    photo_url:
+    'https://images-na.ssl-images-amazon.com/images/G/01/omaha/detail-page/Vanilla1._V308174142_.jpg'
+  },
+  {
+    ingredientId: 69,
+    name: 'Raisins',
+    photo_url:
+    'https://homebrewanswers.com/wp-content/uploads/2017/12/raisin-2772204_640.jpg'
+  },
+  {
+    ingredientId: 70,
+    name: 'Ground cinnamon',
+    photo_url:
+    'https://images-na.ssl-images-amazon.com/images/I/81hhka4KADL._SL1500_.jpg'
+  },
+
+
 ];

@@ -104,7 +104,15 @@ export default class RecipeScreen extends React.Component {
 
           <View style={styles.infoContainer}>
             <Image style={styles.infoPhoto} source={require('../../../assets/icons/time.png')} />
-            <Text style={styles.infoRecipe}>{item.time} minutes </Text>
+            <Text style={styles.infoRecipe}>Total time: {item.time} minutes </Text>
+          </View>
+          <View style={styles.infoContainer}>
+            <Image style={styles.infoPhoto} source={require('../../../assets/icons/time.png')} />
+            <Text style={styles.infoRecipe}>Prep time: {item.prepTime} minutes </Text>
+          </View>
+          <View style={styles.infoContainer}>
+            <Image style={styles.infoPhoto} source={require('../../../assets/icons/time.png')} />
+            <Text style={styles.infoRecipe}>Cook time: {item.cookTime} minutes </Text>
           </View>
 
           <View style={styles.infoContainer}>
