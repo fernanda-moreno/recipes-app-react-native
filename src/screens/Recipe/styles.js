@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from 'react-native';
+import RECIPE_NAME_COLOR from '../../AppStyles';
 
 const { width: viewportWidth } = Dimensions.get('window');
 
@@ -81,7 +82,7 @@ const styles = StyleSheet.create({
     fontSize: 28,
     margin: 10,
     fontWeight: 'bold',
-    color: 'black',
+    color: '#33b052',
     textAlign: 'center'
   }
 });

@@ -7,8 +7,9 @@ const SCREEN_WIDTH = width < height ? width : height;
 
 const recipeNumColums = 2;
 // item size
-const RECIPE_ITEM_HEIGHT = 150;
+const RECIPE_ITEM_HEIGHT = 110;
 const RECIPE_ITEM_MARGIN = 20;
+const RECIPE_NAME_COLOR = "#33b052";
 
 // 2 photos per width
 export const RecipeCard = StyleSheet.create({
@@ -36,7 +37,7 @@ export const RecipeCard = StyleSheet.create({
     fontSize: 17,
     fontWeight: 'bold',
     textAlign: 'center',
-    color: '#444444',
+    color: RECIPE_NAME_COLOR,
     marginTop: 3,
     marginRight: 5,
     marginLeft: 5,
